@@ -1,5 +1,12 @@
-// Copyright 2021 Manna Harbour
-// https://github.com/manna-harbour/miryoku
+#pragma once
 
-#undef  U_TAPPING_TERM      /* remove the 280 ms default */
+#define MIRYOKU_ALPHAS      QWERTY
+#define MIRYOKU_EXTRA       COLEMAKDH
+#define MIRYOKU_TAP         DEFAULT
+#define MIRYOKU_NAV         VI
+#define MIRYOKU_CLIPBOARD   MAC
+#define MIRYOKU_LAYERS      DEFAULT
+#define MIRYOKU_MAPPING     DEFAULT
+
+#undef  U_TAPPING_TERM
 #define U_TAPPING_TERM 180
