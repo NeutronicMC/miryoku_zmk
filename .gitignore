@@ -1,0 +1,17 @@
+# Direnv
+.direnv/
+
+# West workspace
+.west/
+
+# Build artifacts
+build/
+outputs/
+
+# ZMK and Zephyr modules (managed by west)
+zephyr/
+zmk/
+modules/
+
+# Build scripts (if auto-generated)
+build-*.sh
