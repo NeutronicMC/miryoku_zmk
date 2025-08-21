@@ -12,6 +12,3 @@ outputs/
 zephyr/
 zmk/
 modules/
-
-# Build scripts (if auto-generated)
-build-*.sh
